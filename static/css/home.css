@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
-.background-svg {
+body .background-svg {
     position: fixed;
     top: 0;
     background: url("../media/svg/blurry-gradient-haikei.svg"); 
@@ -59,10 +59,15 @@ body .github-text {
     width: 100%;
 }
 
-body .github-text h1 {
+body .github-text h1 a {
     color: white;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
-    font-size: 1em;
+    font-size: .4em;
     font-weight: 400;
+    text-decoration: none;
+}
+
+body .github-text h1 a img {
+    vertical-align: baseline;
 }
